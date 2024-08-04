@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply inline-block bg-primary text-light font-semibold rounded-lg py-2 px-6 hover:bg-secondary
+  }
+}
